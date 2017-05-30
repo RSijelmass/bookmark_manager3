@@ -28,4 +28,4 @@ In this challenge you will use Sinatra to set up a web application and tell Capy
 * [Sinatra Best Practices](http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/)
 * [DataMapper finding records](http://datamapper.org/docs/find.html)
 
-## [Walkthrough](walkthroughs/10.md)
+## [Walkthrough](../walkthroughs/10.md)

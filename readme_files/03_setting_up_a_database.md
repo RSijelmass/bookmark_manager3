@@ -22,6 +22,6 @@ Now that you understand the pros and cons of different persistence mechanisms, i
 * [Homebrew Package Manager](http://brew.sh/)
 * [PostgreSQL Command Line Cheat Sheet](http://blog.jasonmeridth.com/posts/postgresql-command-line-cheat-sheet/)
 
-## [Walkthrough - Mac OS](walkthroughs/03_mac.md)
-## [Walkthrough - Linux](walkthroughs/03_linux.md)
-## [Walkthrough - Nitrous](walkthroughs/03_nitrous.md)
+## [Walkthrough - Mac OS](../walkthroughs/03_mac.md)
+## [Walkthrough - Linux](../walkthroughs/03_linux.md)
+## [Walkthrough - Nitrous](../walkthroughs/03_nitrous.md)

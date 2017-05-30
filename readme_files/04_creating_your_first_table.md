@@ -28,4 +28,4 @@ In this challenge, you will use Postgres' built-in command-line program, `psql`,
 * [PostgreSQL Command Line Cheat Sheet](http://blog.jasonmeridth.com/posts/postgresql-command-line-cheat-sheet/)
 * [SQL in One Page](http://www.cheat-sheets.org/sites/sql.su/)
 
-## [Walkthrough](walkthroughs/04.md)
+## [Walkthrough](../walkthroughs/04.md)

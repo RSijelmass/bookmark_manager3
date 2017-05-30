@@ -52,4 +52,4 @@ Basically, you can use DataMapper to interact with a database using Ruby, instea
 * [DataMapper Overview, Setup & Configuration](http://www.rubydoc.info/github/datamapper/dm-core/DataMapper)
 * [Finish DataMapper Model Setup ](http://www.rubydoc.info/github/datamapper/dm-core/DataMapper/Model#finalize-instance_method)
 
-## [Walkthrough](walkthroughs/06.md)
+## [Walkthrough](../walkthroughs/06.md)

@@ -27,4 +27,4 @@ In this challenge, you will learn the basic building blocks of how to interact w
 * http://blog.jasonmeridth.com/posts/postgresql-command-line-cheat-sheet/
 * [Overview of RDBMS by Stephen](https://www.youtube.com/watch?v=C7EKjnFCyeQ)
 
-## [Walkthrough](walkthroughs/07.md)
+## [Walkthrough](../walkthroughs/07.md)

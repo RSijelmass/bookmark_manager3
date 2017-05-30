@@ -29,4 +29,4 @@ In this challenge, you will construct a `Link` **model** that uses the Datamappe
 
 * [DataMapper Getting Started](http://datamapper.org/getting-started.html)
 
-## [Walkthrough](walkthroughs/09.md)
+## [Walkthrough](../walkthroughs/09.md)

@@ -1,6 +1,6 @@
 # Walkthrough - Setting up a Database
 
-[Back to Challenge](../03_setting_up_a_database.md)
+[Back to Challenge](../readme_files/03_setting_up_a_database.md)
 
 There are two ways of installing PostgreSQL. Firstly, you can download the PostgreSQL app. However, the app can sometimes be problematic, and actually leave you with a non-working PostgreSQL installation.
 
@@ -39,4 +39,4 @@ The last command quits out of the postgres terminal.
 
 From now on you will be able to log in to postgresql without having to specify the database you want to log into.
 
-[next challenge](../04_creating_your_first_table.md)
+[next challenge](../readme_files/04_creating_your_first_table.md)

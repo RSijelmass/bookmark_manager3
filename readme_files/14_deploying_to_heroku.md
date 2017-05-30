@@ -27,4 +27,4 @@ Now that you understand about the different database environments and have datab
 * [Adding Postgres support to Heroku instance](https://devcenter.heroku.com/articles/heroku-postgresql)
 * [Viewing your app's logs (getting visibility) on Heroku](https://devcenter.heroku.com/articles/logging)
 
-## [Walkthrough](walkthroughs/14.md)
+## [Walkthrough](../walkthroughs/14.md)

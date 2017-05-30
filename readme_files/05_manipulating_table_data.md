@@ -24,4 +24,4 @@ In this challenge, you will use SQL to create, update, delete and **query** data
 * [SQL in One Page](http://www.cheat-sheets.org/sites/sql.su/)
 * [Relational Database: Terminology](https://en.wikipedia.org/wiki/Relational_database#Terminology)
 
-## [Walkthrough](walkthroughs/05.md)
+## [Walkthrough](../walkthroughs/05.md)
