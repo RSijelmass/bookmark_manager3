@@ -1,2 +1,13 @@
-Bookmarks List
-<%= @links %>
+<html>
+
+<ul id="links">
+  <h3>Bookmarks List</h3>
+  <% @links.each do |link| %>
+    <li>
+      Title: <%= link.title %>
+      URL: <%= link.url %>
+    </li>
+  <% end %>
+</ul>
+
+</html>
