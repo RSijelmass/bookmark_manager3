@@ -16,5 +16,4 @@ class BookmarkManager < Sinatra::Base
   get ('/links/new') do
     erb :newlink
   end
-
 end
