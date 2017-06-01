@@ -22,8 +22,9 @@ class BookmarkManager < Sinatra::Base
     erb :newlink
   end
 
-  get '/tags/shopping' do
+  get '/tags/:tag' do
     @links = Link.all
-    erb :shopping
+    @tag = params['tag']
+    erb :select_tags
   end
 end
