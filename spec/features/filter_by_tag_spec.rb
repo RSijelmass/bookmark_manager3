@@ -13,4 +13,6 @@ feature 'filter by tag' do
     visit '/tags/shopping'
     expect(page).to_not have_content 'Reddit'
   end
+
+
 end
