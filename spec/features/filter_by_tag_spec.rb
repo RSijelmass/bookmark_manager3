@@ -1,12 +1,16 @@
 feature 'filter by tag' do
-  scenario 'visit tags/[specific tag] and see a list with specific tag' do
-    visit '/links/new'
-    fill_in('title', with: 'Amazon')
-    fill_in('url', with: 'amazon.com')
-    fill_in('tags', with: 'shopping')
-    click_button 'submit'
+  before do
+    Link.create(title: 'Amazon', url: 'amazon.com', tags: [Tag.create(name: 'shopping')])
+    Link.create(title: 'Reddit', url: 'reddit.com', tags: [Tag.create(name: 'entertainment')])
+  end
 
+  scenario 'visit tags/[specific tag] and see a list with specific tag' do
     visit '/tags/shopping'
     expect(page).to have_content 'Amazon'
+   end
+
+  scenario 'does not show link with a different tag' do
+    visit '/tags/shopping'
+    expect(page).to_not have_content 'Reddit'
   end
 end
