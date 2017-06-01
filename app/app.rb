@@ -1,6 +1,6 @@
 ENV["RACK_ENV"] ||= "development"
 require 'sinatra/base'
-require_relative './models/init.rb'
+require_relative 'init'
 
 class BookmarkManager < Sinatra::Base
 
@@ -20,5 +20,10 @@ class BookmarkManager < Sinatra::Base
 
   get ('/links/new') do
     erb :newlink
+  end
+
+  get '/tags/shopping' do
+    @links = Link.all
+    erb :shopping
   end
 end
