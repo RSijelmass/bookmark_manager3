@@ -1,8 +1,13 @@
 Enter your email and password below:
 
+
 <form action='/login', method='post'>
 	Email: <input type='text' name='email'>
 	Password: <input type='password' name='password'>
 	Confirm Password: <input type='password' name='confirmation'>
 	<input type='submit' value='Sign in'>
 </form>
+
+<% if flash[:fail] %>
+  <%= flash[:fail] %> 
+<% end %>
