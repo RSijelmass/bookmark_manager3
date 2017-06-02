@@ -3,9 +3,8 @@ feature 'user sign in' do
 		visit '/'
 		fill_in('email', with: 'colin@scally.com')
 		fill_in('password', with: 'password')
-		# click_button('Sign in')	
+		fill_in('confirmation', with: 'password')
 		expect { click_button ('Sign in') }.to change { User.count } .by 1
 		expect(page).to have_content('Welcome colin@scally.com!')
-
 	end
 end
