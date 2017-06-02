@@ -1,17 +1,14 @@
-class User
+require 'bcrypt'
 
-	@@counter = 0
+class User
+	include BCrypt
 	include DataMapper::Resource
 
 	property :id, Serial
 	property :email, String
-	property :password, String
+	property :password_hash, Text 
 
-	def self.increment_counter
-	       @@counter += 1	
-	end
-
-	def self.counter
-		@@counter
+	def password=(password)
+		self.password_hash = BCrypt::Password.create(password)
 	end
 end

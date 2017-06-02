@@ -4,8 +4,7 @@ feature 'user sign in' do
 		fill_in('email', with: 'colin@scally.com')
 		fill_in('password', with: 'password')
 		# click_button('Sign in')	
-		p User.counter
-		expect { click_button ('Sign in') }.to change { User.counter }.by 1
+		expect { click_button ('Sign in') }.to change { User.count } .by 1
 		expect(page).to have_content('Welcome colin@scally.com!')
 
 	end

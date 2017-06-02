@@ -4,6 +4,7 @@ require_relative 'init'
 
 class BookmarkManager < Sinatra::Base
   enable :sessions
+  set :session_secret, 'super secret'
 
   helpers do 
     def current_user
@@ -18,7 +19,6 @@ class BookmarkManager < Sinatra::Base
   post '/login' do
     user = User.create(email: params[:email], password: params[:password])
     session[:user_id] = user.id
-    User.increment_counter
     redirect '/links'
   end
  
