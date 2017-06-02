@@ -5,11 +5,13 @@ feature 'filter by tag' do
   end
 
   scenario 'visit tags/[specific tag] and see a list with specific tag' do
+    sign_in
     visit '/tags/shopping'
     expect(page).to have_content 'Amazon'
    end
 
   scenario 'does not show link with a different tag' do
+    sign_in
     visit '/tags/shopping'
     expect(page).to_not have_content 'Reddit'
   end

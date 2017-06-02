@@ -1,5 +1,6 @@
 feature "Adding tags" do
   scenario "Adds a tag to a link by submitting the form" do
+    sign_in
     visit ('/links/new')
     fill_in('tags', with: 'science')
     click_button('submit')
